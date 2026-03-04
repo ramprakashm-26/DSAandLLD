@@ -1,4 +1,4 @@
-package org.dsa.backTracking.revision;
+package dsa.backTracking.revision;
 
 import java.util.Arrays;
 

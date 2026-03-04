@@ -1,4 +1,4 @@
-package org.dsa.dynamicProgramming.curatedList.TwoDimensional;
+package dsa.dynamicProgramming.curatedList.TwoDimensional;
 
 /**
  * String s = "babgbag", t = "bag"; O/P -> 5 ways

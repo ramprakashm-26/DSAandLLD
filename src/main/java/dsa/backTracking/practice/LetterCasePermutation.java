@@ -1,4 +1,4 @@
-package org.dsa.backTracking.practice;
+package dsa.backTracking.practice;
 
 import java.util.ArrayList;
 import java.util.List;

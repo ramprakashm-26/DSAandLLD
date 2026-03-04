@@ -1,6 +1,6 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
-import org.dsa.trees.binarySearchTree.BinaryTreeNode;
+import dsa.trees.binarySearchTree.BinaryTreeNode;
 
 public class ValidateBST_2 {
     static BinaryTreeNode previous = null;

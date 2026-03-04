@@ -1,4 +1,4 @@
-package org.dsa.prefix_suffix;
+package dsa.prefix_suffix;
 
 public class TrapRainWater {
     public static void main(String[] args) {

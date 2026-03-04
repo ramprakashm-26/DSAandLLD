@@ -1,4 +1,4 @@
-package org.dsa.slidingWindow;
+package dsa.slidingWindow;
 
 /**
  * for nums {0, 0, 0, 0, 0} and goal = 0,

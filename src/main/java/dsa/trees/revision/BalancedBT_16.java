@@ -1,22 +1,22 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
-import org.dsa.trees.binaryTree.TreeNode;
+import dsa.trees.binaryTree.TreeNode;
 
 public class BalancedBT_16 {
     public static boolean balanced = true;
 
     public static void main(String[] args) {
-        org.dsa.trees.binaryTree.TreeNode node = new org.dsa.trees.binaryTree.TreeNode(3);
-        node.left = new org.dsa.trees.binaryTree.TreeNode(1);
-        node.right = new org.dsa.trees.binaryTree.TreeNode(4);
-        node.left.left = new org.dsa.trees.binaryTree.TreeNode(3);
-        node.right.left = new org.dsa.trees.binaryTree.TreeNode(1);
-        node.right.right = new org.dsa.trees.binaryTree.TreeNode(5);
+        dsa.trees.binaryTree.TreeNode node = new dsa.trees.binaryTree.TreeNode(3);
+        node.left = new dsa.trees.binaryTree.TreeNode(1);
+        node.right = new dsa.trees.binaryTree.TreeNode(4);
+        node.left.left = new dsa.trees.binaryTree.TreeNode(3);
+        node.right.left = new dsa.trees.binaryTree.TreeNode(1);
+        node.right.right = new dsa.trees.binaryTree.TreeNode(5);
         isBalanced(node);
         System.out.println(balanced);
     }
 
-    public static boolean isBalanced(org.dsa.trees.binaryTree.TreeNode root) {
+    public static boolean isBalanced(dsa.trees.binaryTree.TreeNode root) {
         getHeight(root);
         return balanced;
     }

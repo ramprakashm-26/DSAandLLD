@@ -1,4 +1,4 @@
-package org.dsa.backTracking.revision;
+package dsa.backTracking.revision;
 
 public class UniquePathIII_5 {
     public static int result = 0;

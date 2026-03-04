@@ -1,6 +1,6 @@
-package org.dsa.trees.binarySearchTree.problems;
+package dsa.trees.binarySearchTree.problems;
 
-import org.dsa.trees.binarySearchTree.BinaryTreeNode;
+import dsa.trees.binarySearchTree.BinaryTreeNode;
 
 public class SameTree {
     public static void main(String[] args) {

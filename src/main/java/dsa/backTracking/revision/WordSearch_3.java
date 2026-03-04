@@ -1,4 +1,4 @@
-package org.dsa.backTracking.revision;
+package dsa.backTracking.revision;
 
 public class WordSearch_3 {
     public static void main(String[] args) {

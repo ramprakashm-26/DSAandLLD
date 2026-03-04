@@ -1,6 +1,6 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
-import org.dsa.trees.binaryTree.TreeNode;
+import dsa.trees.binaryTree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -9,10 +9,10 @@ import java.util.Queue;
 
 public class RightSideViewOfBT_17 {
     public static void main(String[] args) {
-        org.dsa.trees.binaryTree.TreeNode node = new org.dsa.trees.binaryTree.TreeNode(1);
-        node.left = new org.dsa.trees.binaryTree.TreeNode(2);
-        node.right = new org.dsa.trees.binaryTree.TreeNode(3);
-        node.left.left = new org.dsa.trees.binaryTree.TreeNode(4);
+        dsa.trees.binaryTree.TreeNode node = new dsa.trees.binaryTree.TreeNode(1);
+        node.left = new dsa.trees.binaryTree.TreeNode(2);
+        node.right = new dsa.trees.binaryTree.TreeNode(3);
+        node.left.left = new dsa.trees.binaryTree.TreeNode(4);
         node.left.left.left = new TreeNode(5);
         System.out.println(rightSideView(node));
     }

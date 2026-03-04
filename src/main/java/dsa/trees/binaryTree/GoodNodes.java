@@ -1,4 +1,4 @@
-package org.dsa.trees.binaryTree;
+package dsa.trees.binaryTree;
 
 public class GoodNodes {
     public static void main(String[] args) {

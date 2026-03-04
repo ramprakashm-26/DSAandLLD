@@ -1,4 +1,4 @@
-package org.dsa.dynamicProgramming.curatedList.OneDimensional;
+package dsa.dynamicProgramming.curatedList.OneDimensional;
 
 public class HouseRobber {
     public static void main(String[] args) {

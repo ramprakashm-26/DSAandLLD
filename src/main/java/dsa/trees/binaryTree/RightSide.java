@@ -1,4 +1,4 @@
-package org.dsa.trees.binaryTree;
+package dsa.trees.binaryTree;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

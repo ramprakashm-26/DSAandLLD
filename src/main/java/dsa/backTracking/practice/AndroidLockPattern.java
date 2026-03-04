@@ -1,4 +1,4 @@
-package org.dsa.backTracking.practice;
+package dsa.backTracking.practice;
 
 public class AndroidLockPattern {
     public int counter = 0, result = 0;

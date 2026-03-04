@@ -1,4 +1,4 @@
-package org.dsa.arraysAndStrings;
+package dsa.arraysAndStrings;
 
 import java.util.*;
 

@@ -1,6 +1,6 @@
-package org.dsa.trees.binarySearchTree.problems;
+package dsa.trees.binarySearchTree.problems;
 
-import org.dsa.trees.binarySearchTree.BinaryTreeNode;
+import dsa.trees.binarySearchTree.BinaryTreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

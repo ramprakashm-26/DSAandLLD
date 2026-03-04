@@ -1,7 +1,7 @@
-package org.dsa.trees.binarySearchTree;
+package dsa.trees.binarySearchTree;
 
-import org.dsa.trees.binaryTree.BinaryTree;
-import org.dsa.trees.binaryTree.TreeNode;
+import dsa.trees.binaryTree.BinaryTree;
+import dsa.trees.binaryTree.TreeNode;
 
 import java.util.Stack;
 

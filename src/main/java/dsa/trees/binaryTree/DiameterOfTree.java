@@ -1,4 +1,4 @@
-package org.dsa.trees.binaryTree;
+package dsa.trees.binaryTree;
 
 class DiameterOfTree {
     public int diameter = 0;

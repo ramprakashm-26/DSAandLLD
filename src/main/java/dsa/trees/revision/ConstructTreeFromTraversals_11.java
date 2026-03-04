@@ -1,4 +1,4 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
 import java.util.HashMap;
 import java.util.Map;

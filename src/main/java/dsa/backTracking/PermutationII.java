@@ -1,4 +1,4 @@
-package org.dsa.backTracking;
+package dsa.backTracking;
 
 import java.util.ArrayList;
 import java.util.Arrays;

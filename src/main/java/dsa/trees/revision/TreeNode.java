@@ -1,4 +1,4 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
 public class DeleteNode_13 {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
-import org.dsa.trees.binaryTree.TreeNode;
+import dsa.trees.binaryTree.TreeNode;
 
 public class DiameterOfBinaryTree_14 {
     public static int diameter = 0;
@@ -21,7 +21,7 @@ public class DiameterOfBinaryTree_14 {
         System.out.println(diameterOfBinaryTree(root));
     }
 
-    public static int diameterOfBinaryTree(org.dsa.trees.binaryTree.TreeNode root) {
+    public static int diameterOfBinaryTree(dsa.trees.binaryTree.TreeNode root) {
         dfs(root);
         return diameter;
     }

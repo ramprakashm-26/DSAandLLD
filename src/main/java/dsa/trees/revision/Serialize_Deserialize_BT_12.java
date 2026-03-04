@@ -1,6 +1,6 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
-import org.dsa.trees.binaryTree.TreeNode;
+import dsa.trees.binaryTree.TreeNode;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -8,10 +8,10 @@ import java.util.Queue;
 
 public class Serialize_Deserialize_BT_12 {
     public static void main(String[] args) {
-        org.dsa.trees.binaryTree.TreeNode node = new org.dsa.trees.binaryTree.TreeNode(3);
-        node.left = new org.dsa.trees.binaryTree.TreeNode(9);
-        node.right = new org.dsa.trees.binaryTree.TreeNode(20);
-        node.right.left = new org.dsa.trees.binaryTree.TreeNode(7);
+        dsa.trees.binaryTree.TreeNode node = new dsa.trees.binaryTree.TreeNode(3);
+        node.left = new dsa.trees.binaryTree.TreeNode(9);
+        node.right = new dsa.trees.binaryTree.TreeNode(20);
+        node.right.left = new dsa.trees.binaryTree.TreeNode(7);
         node.right.right = new TreeNode(15);
         String serialized = serialize(node);
         System.out.println(serialized);

@@ -1,4 +1,4 @@
-package org.dsa.slidingWindow;
+package dsa.slidingWindow;
 
 public class LongestSubArrayOfOnes {
     public static void main(String[] args) {

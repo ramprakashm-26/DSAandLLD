@@ -1,6 +1,6 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
-import org.dsa.trees.binarySearchTree.BinaryTreeNode;
+import dsa.trees.binarySearchTree.BinaryTreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,15 +1,15 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
-import org.dsa.trees.binaryTree.TreeNode;
+import dsa.trees.binaryTree.TreeNode;
 
 public class KthSmallestInBst_9 {
     public static int count = 0, value = 0;
     public static void main(String[] args) {
-        org.dsa.trees.binaryTree.TreeNode node = new org.dsa.trees.binaryTree.TreeNode(5);
-        node.left = new org.dsa.trees.binaryTree.TreeNode(3);
-        node.right = new org.dsa.trees.binaryTree.TreeNode(6);
-        node.left.left = new org.dsa.trees.binaryTree.TreeNode(2);
-        node.left.right = new org.dsa.trees.binaryTree.TreeNode(4);
+        dsa.trees.binaryTree.TreeNode node = new dsa.trees.binaryTree.TreeNode(5);
+        node.left = new dsa.trees.binaryTree.TreeNode(3);
+        node.right = new dsa.trees.binaryTree.TreeNode(6);
+        node.left.left = new dsa.trees.binaryTree.TreeNode(2);
+        node.left.right = new dsa.trees.binaryTree.TreeNode(4);
         node.left.left.left = new TreeNode(1);
 
         int k = 4;

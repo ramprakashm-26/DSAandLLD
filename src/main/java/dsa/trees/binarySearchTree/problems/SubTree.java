@@ -1,6 +1,6 @@
-package org.dsa.trees.binarySearchTree.problems;
+package dsa.trees.binarySearchTree.problems;
 
-import org.dsa.trees.binaryTree.TreeNode;
+import dsa.trees.binaryTree.TreeNode;
 
 public class SubTree {
     public static void main(String[] args) {

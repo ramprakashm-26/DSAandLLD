@@ -1,4 +1,4 @@
-package org.dsa.backTracking.practice;
+package dsa.backTracking.practice;
 
 public class UniquePathIII {
     public int result = 0;

@@ -1,6 +1,6 @@
-package org.dsa.trees.binarySearchTree.problems;
+package dsa.trees.binarySearchTree.problems;
 
-import org.dsa.trees.binaryTree.TreeNode;
+import dsa.trees.binaryTree.TreeNode;
 //2 cases: usual one found on both left and right
 //         only found on any one side, where that node itself might be an ancestor
 public class LCAOfBinaryTree {

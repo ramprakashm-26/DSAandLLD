@@ -1,15 +1,15 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
-import org.dsa.trees.binaryTree.TreeNode;
+import dsa.trees.binaryTree.TreeNode;
 
 public class CountGoodNodes_15 {
     public static int count = 0;
     public static void main(String[] args) {
-        org.dsa.trees.binaryTree.TreeNode node = new org.dsa.trees.binaryTree.TreeNode(3);
-        node.left = new org.dsa.trees.binaryTree.TreeNode(1);
-        node.right = new org.dsa.trees.binaryTree.TreeNode(4);
-        node.left.left = new org.dsa.trees.binaryTree.TreeNode(3);
-        node.right.left = new org.dsa.trees.binaryTree.TreeNode(1);
+        dsa.trees.binaryTree.TreeNode node = new dsa.trees.binaryTree.TreeNode(3);
+        node.left = new dsa.trees.binaryTree.TreeNode(1);
+        node.right = new dsa.trees.binaryTree.TreeNode(4);
+        node.left.left = new dsa.trees.binaryTree.TreeNode(3);
+        node.right.left = new dsa.trees.binaryTree.TreeNode(1);
         node.right.right = new TreeNode(5);
         countGoodNodes(node, node.val);
         System.out.println(count);

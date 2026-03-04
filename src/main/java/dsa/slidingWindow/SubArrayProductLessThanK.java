@@ -1,4 +1,4 @@
-package org.dsa.slidingWindow;
+package dsa.slidingWindow;
 
 public class SubArrayProductLessThanK {
     public static void main(String[] args) {

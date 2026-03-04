@@ -1,4 +1,4 @@
-package org.dsa.dynamicProgramming.curatedList.OneDimensional;
+package dsa.dynamicProgramming.curatedList.OneDimensional;
 
 /**
  * int[] cost = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};

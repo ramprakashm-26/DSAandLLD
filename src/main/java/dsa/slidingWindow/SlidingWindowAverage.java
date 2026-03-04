@@ -1,4 +1,4 @@
-package org.dsa.slidingWindow;
+package dsa.slidingWindow;
 
 import java.util.ArrayList;
 import java.util.Arrays;

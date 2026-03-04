@@ -1,6 +1,6 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
-import org.dsa.trees.binarySearchTree.BinaryTreeNode;
+import dsa.trees.binarySearchTree.BinaryTreeNode;
 
 public class SameTree_4 {
     public static void main(String[] args) {

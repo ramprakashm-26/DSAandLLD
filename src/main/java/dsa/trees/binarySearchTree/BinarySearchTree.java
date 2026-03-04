@@ -1,4 +1,4 @@
-package org.dsa.trees.binarySearchTree;
+package dsa.trees.binarySearchTree;
 
 public class BinarySearchTree {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.dsa.dynamicProgramming.curatedList.TwoDimensional;
+package dsa.dynamicProgramming.curatedList.TwoDimensional;
 
 public class CoinChangeII {
     public static void main(String[] args) {

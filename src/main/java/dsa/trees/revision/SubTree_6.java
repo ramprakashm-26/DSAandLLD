@@ -1,17 +1,17 @@
-package org.dsa.trees.revision;
+package dsa.trees.revision;
 
-import org.dsa.trees.binaryTree.TreeNode;
+import dsa.trees.binaryTree.TreeNode;
 
 public class SubTree_6 {
     public static void main(String[] args) {
-        org.dsa.trees.binaryTree.TreeNode mainTree = new org.dsa.trees.binaryTree.TreeNode(3);
-        mainTree.left = new org.dsa.trees.binaryTree.TreeNode(4);
-        mainTree.right = new org.dsa.trees.binaryTree.TreeNode(5);
-        mainTree.left.left = new org.dsa.trees.binaryTree.TreeNode(1);
-        mainTree.left.right = new org.dsa.trees.binaryTree.TreeNode(2);
+        dsa.trees.binaryTree.TreeNode mainTree = new dsa.trees.binaryTree.TreeNode(3);
+        mainTree.left = new dsa.trees.binaryTree.TreeNode(4);
+        mainTree.right = new dsa.trees.binaryTree.TreeNode(5);
+        mainTree.left.left = new dsa.trees.binaryTree.TreeNode(1);
+        mainTree.left.right = new dsa.trees.binaryTree.TreeNode(2);
 
-        org.dsa.trees.binaryTree.TreeNode subTree = new org.dsa.trees.binaryTree.TreeNode(4);
-        subTree.left = new org.dsa.trees.binaryTree.TreeNode(1);
+        dsa.trees.binaryTree.TreeNode subTree = new dsa.trees.binaryTree.TreeNode(4);
+        subTree.left = new dsa.trees.binaryTree.TreeNode(1);
         subTree.right = new TreeNode(2);
         System.out.println(isSubTree(mainTree, subTree));
 

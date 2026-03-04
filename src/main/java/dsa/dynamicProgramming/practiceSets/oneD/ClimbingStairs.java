@@ -1,4 +1,4 @@
-package org.dsa.dynamicProgramming.practiceSets.oneD;
+package dsa.dynamicProgramming.practiceSets.oneD;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package org.dsa.prefix_suffix;
+package dsa.prefix_suffix;
 
 import java.util.Arrays;
 

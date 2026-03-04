@@ -1,4 +1,4 @@
-package org.dsa.dynamicProgramming.curatedList.OneDimensional;
+package dsa.dynamicProgramming.curatedList.OneDimensional;
 
 import java.util.Arrays;
 

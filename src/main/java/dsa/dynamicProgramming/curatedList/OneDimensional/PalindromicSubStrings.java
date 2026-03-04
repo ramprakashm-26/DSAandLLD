@@ -1,4 +1,4 @@
-package org.dsa.dynamicProgramming.curatedList.OneDimensional;
+package dsa.dynamicProgramming.curatedList.OneDimensional;
 
 public class PalindromicSubStrings {
     public static int count = 0;
