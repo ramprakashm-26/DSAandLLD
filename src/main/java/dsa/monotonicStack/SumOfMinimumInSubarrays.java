@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class SumOfMinimumInSubarrays {
     public static void main(String[] args) {
-        int[] array = {3, 1, 2, 4};
+        int[] array = {3, 1, 2, 4}; //{2, 2} left is strict [>], right is less strict [>=]
         System.out.println(minimumInSubarray(array));
     }
 

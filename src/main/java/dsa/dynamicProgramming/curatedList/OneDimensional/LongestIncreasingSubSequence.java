@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public class LongestIncreasingSubSequence {
     public static void main(String[] args) {
-        int[] nums = {1, 3, 6, 7, 9, 4, 10, 5, 6};
+        int[] nums = {4, 10, 4, 3, 8, 9}; // {4,10,4,3,8,9} // {1, 3, 6, 7, 9, 4, 10, 5, 6}
         System.out.println("LIS length: " + findLisLength(nums));
     }
 
