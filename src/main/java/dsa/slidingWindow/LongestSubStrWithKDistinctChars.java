@@ -10,6 +10,24 @@ public class LongestSubStrWithKDistinctChars {
         System.out.println("Longest SubString With at most K DistinctCharacters: " + longest(s, k));
     }
 
+    private static int longestSubstring(String s, int k) {
+        Map<Character, Integer> window = new HashMap<>();
+        int maxLength = 0;
+        for (int left = 0, right = 0; right < s.length(); right++) {
+            char cR = s.charAt(right);
+            window.merge(cR, 1, Integer::sum);
+            while (window.size() > k) {
+                char cL = s.charAt(left++);
+                window.merge(cL, -1, Integer::sum);
+                if (window.get(cL) == 0) {
+                    window.remove(cL);
+                }
+            }
+            maxLength = Math.max(maxLength, right - left + 1);
+        }
+        return maxLength;
+    }
+
     private static int longest(String s, int k) {
         Map<Character, Integer> map = new HashMap<>();
         int maxLen = 0;
