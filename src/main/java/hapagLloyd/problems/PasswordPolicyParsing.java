@@ -2,6 +2,33 @@ package hapagLloyd.problems;
 
 import java.util.List;
 
+/*
+Password Philosophy
+
+Each line represents a password policy and a password.
+
+Format:
+min-max letter: password
+
+Example:
+1-3 a: abcde
+
+Part 1:
+The letter must appear between min and max times.
+
+Example:
+1-3 a: abcde  -> valid
+
+Part 2:
+The numbers represent positions (1-based).
+Exactly one of those positions must contain the given letter.
+
+Example:
+1-3 a: abcde
+position1 = a
+position3 = c
+Valid (only one matches).
+*/
 public class PasswordPolicyParsing {
     public static void main(String[] args) {
         List<String> list = List.of(

@@ -5,6 +5,43 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/*
+Passport Processing
+
+Input represents passport records.
+
+Each passport consists of key:value pairs separated by spaces or new lines.
+Passports are separated by blank lines.
+
+Example passport:
+ecl:gry pid:860033327 eyr:2020 hcl:#fffffd
+byr:1937 iyr:2017 cid:147 hgt:183cm
+
+Required fields:
+byr (Birth Year)
+iyr (Issue Year)
+eyr (Expiration Year)
+hgt (Height)
+hcl (Hair Color)
+ecl (Eye Color)
+pid (Passport ID)
+
+cid (Country ID) is optional.
+
+Part 1:
+A passport is valid if all required fields are present.
+
+Part 2:
+Fields must also satisfy validation rules:
+
+byr: 1920-2002
+iyr: 2010-2020
+eyr: 2020-2030
+hgt: 150-193cm OR 59-76in
+hcl: # followed by exactly 6 hex digits
+ecl: one of [amb, blu, brn, gry, grn, hzl, oth]
+pid: exactly 9 digits
+*/
 public class PassportPolicy {
     public static void main(String[] args) {
         List<String> lines = List.of(

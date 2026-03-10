@@ -2,7 +2,41 @@ package hapagLloyd.problems;
 
 import java.util.Map;
 
-//First and last digit should be extracted
+/*
+Trebuchet Calibration
+
+Each line of text contains a mixture of letters and digits.
+Your task is to extract the calibration value from each line.
+
+The calibration value is formed by combining the first digit
+and the last digit found in the line.
+
+Example:
+Input:
+1abc2
+pqr3stu8vwx
+a1b2c3d4e5f
+treb7uchet
+
+Extracted values:
+12
+38
+15
+77
+
+Final result = sum of all calibration values.
+
+Part 2 variation:
+Digits may also appear spelled out:
+one two three four five six seven eight nine
+
+Example:
+two1nine -> 29
+eightwothree -> 83
+
+Note: words can overlap:
+twone -> 21
+*/
 public class CalibrationMisspelledDigits {
     public static void main(String[] args) {
         String[] strings = new String[] {

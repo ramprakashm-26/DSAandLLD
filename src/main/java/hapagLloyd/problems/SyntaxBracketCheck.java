@@ -2,6 +2,41 @@ package hapagLloyd.problems;
 
 import java.util.*;
 
+/*
+Syntax Scoring
+
+Each line contains a sequence of brackets.
+
+Valid bracket types:
+() [] {} <>
+
+Part 1:
+Detect corrupted lines.
+A line is corrupted if a closing bracket does not match
+the most recent opening bracket.
+
+Scores:
+) = 3
+] = 57
+} = 1197
+> = 25137
+
+Return the total syntax error score.
+
+Part 2:
+For incomplete lines, compute completion score.
+
+Completion scoring rule:
+score = score * 5 + bracket_value
+
+Values:
+) = 1
+] = 2
+} = 3
+> = 4
+
+Return the median completion score.
+*/
 public class SyntaxBracketCheck {
     public static void main(String[] args) {
         List<String> corrupted = List.of(
@@ -83,7 +118,7 @@ public class SyntaxBracketCheck {
                     }
                 }
             }
-            if (!isCorrupted || stack.isEmpty()) {
+            if (isCorrupted || stack.isEmpty()) {
                 continue;
             }
             while (!stack.isEmpty()) {
