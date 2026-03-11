@@ -17,6 +17,7 @@ Longest Palindromic Substring ✔
 Palindromic Substrings ✔
 Word Break ✔
 Decode Ways ✔
+Decode String (LC:394) ✔
 Shortest Distance to Character
 ------------------------------
 Advent of Code String Problems
