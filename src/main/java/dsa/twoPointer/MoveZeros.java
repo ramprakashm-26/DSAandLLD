@@ -11,25 +11,34 @@ public class MoveZeros {
     }
 
     public void moveZeroes(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return;
-        }
-        if (nums.length == 1) {
-            return;
-        }
-        int left = 0, right = 1;
-        while (right < nums.length) {
-            if (nums[left] == 0 && nums[right] != 0) {
-                swap(nums, left, right);
-                left++;
-                right++;
-            } else if (nums[left] == 0 && nums[right] == 0) {
-                right++;
-            } else {
-                left++;
-                right++;
+        for (int left = 0, right = 0; right < nums.length; right++) {
+            if (nums[right] == 0) {
+                continue;
             }
+            int temp = nums[right];
+            nums[right] = nums[left];
+            nums[left++] = temp;
         }
+        // OR
+//        if (nums == null || nums.length == 0) {
+//            return;
+//        }
+//        if (nums.length == 1) {
+//            return;
+//        }
+//        int left = 0, right = 1;
+//        while (right < nums.length) {
+//            if (nums[left] == 0 && nums[right] != 0) {
+//                swap(nums, left, right);
+//                left++;
+//                right++;
+//            } else if (nums[left] == 0 && nums[right] == 0) {
+//                right++;
+//            } else {
+//                left++;
+//                right++;
+//            }
+//        }
     }
 
     private void swap(int[] nums, int left, int right) {
