@@ -1,4 +1,4 @@
-package hapagLloyd.problems;
+package hlag.problems;
 
 import java.util.List;
 

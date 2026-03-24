@@ -1,4 +1,4 @@
-package hapagLloyd.problems;
+package hlag.problems;
 
 public class CalibrationDigitsExpected {
     public static void main(String[] args) {
