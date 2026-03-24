@@ -5,8 +5,8 @@ import java.util.Stack;
 
 public class RemoveKDigits {
     public static void main(String[] args) {
-        String num = "112"; //{1432219, k = 3}, {10200, k = 1}
-        int k = 1;
+        String num = "1432219"; //{1432219, k = 3}, {10200, k = 1}
+        int k = 3;
         System.out.println(removeKdigits(num, k));
     }
 

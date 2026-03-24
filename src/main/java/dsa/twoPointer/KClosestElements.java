@@ -6,8 +6,8 @@ import java.util.PriorityQueue;
 
 public class KClosestElements {
     public static void main(String[] args) {
-        int[] array = {1, 2, 5, 3, 4}; //{1,1,2,3,4,5}, k =4, x = - 1 && {1, 2, 3, 4, 5}, k = 4, x = 3
-        int k = 4, x = 3;
+        int[] array = {1, 1, 2, 3, 4, 5}; //{1,1,2,3,4,5}, k =4, x = - 1 && {1, 2, 3, 4, 5}, k = 4, x = 3
+        int k = 4, x = -1;
         System.out.println("K Closest elements: %s".formatted(findClosestElements(array, k, x)));
         System.out.println("K Closest elements by min heap: %s".formatted(findClosestByPriorityQueue(array, k, x)));
     }

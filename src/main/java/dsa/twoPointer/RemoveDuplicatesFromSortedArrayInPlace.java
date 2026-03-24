@@ -16,15 +16,11 @@ public class RemoveDuplicatesFromSortedArrayInPlace {
             return 0;
         }
         if (nums.length == 1) return 1;
-        int left = 0, right = 1;
-        while (right < nums.length) {
-            if (nums[left] == nums[right]) {
-                right++;
-            } else {
-                int temp = nums[left + 1];
-                nums[left + 1] = nums[right];
-                nums[right++] = temp;
-                left++;
+        int n = nums.length;
+        int left = 0;
+        for (int right = 1; right < n; right++) {
+            if (nums[left] != nums[right]) {
+                nums[++left] = nums[right];
             }
         }
         return left + 1;

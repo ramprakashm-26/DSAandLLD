@@ -12,7 +12,6 @@ public class DecodeWays {
             return 0;
         }
         int n = s.length();
-        if (n == 1) return 1;
         int[] dp = new int[n + 1];
         dp[0] = 1;
         dp[1] = s.charAt(0) == '0' ? 0 : 1;

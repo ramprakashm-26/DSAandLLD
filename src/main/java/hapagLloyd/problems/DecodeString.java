@@ -24,6 +24,7 @@ public class DecodeString {
             } else if (ch == ']') {
                 int count = countStack.pop();
                 StringBuilder previous = stringStack.pop();
+                //previous.append(String.valueOf(current).repeat(count));
                 for (int i = 0; i < count; i++) {
                     previous.append(current);
                 }

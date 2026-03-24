@@ -4,7 +4,7 @@ import java.util.*;
 
 public class ThreeSum {
     public static void main(String[] args) {
-        int[] nums = {-1, 0, 1, 2, -1, -4};
+        int[] nums = {-2, 0, 0, 2, 2}; //{-1, 0, 1, 2, -1, -4};
         System.out.println("Three sum brute force : " + threeSum(nums));
         System.out.println("Three Sum optimized : " + binarySearch(nums));
     }

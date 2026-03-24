@@ -94,8 +94,20 @@ public class PassportValidation {
                     case "hcl" -> {
                         String hairColor = pair[1];
                         int len = hairColor.length();
-                        if (hairColor.startsWith("#") && hairColor.substring(1, len).
-                                matches("^[0-9a-f]{6}$")) {
+//                        if (hairColor.startsWith("#") && hairColor.substring(1, len).
+//                                matches("^[0-9a-f]{6}$")) {
+                        if (hairColor.matches("^#[0-9a-f]{6}$")) {
+                            //^[0-9]{9}$ -> ^ beginning of string should match
+                            //{9} -> length should match, $ - end of string
+                            /**
+                             * alternative!!
+                             * for (char c : s.toCharArray()) {
+                             *         if (!Character.isDigit(c) &&
+                             *             !(c >= 'a' && c <= 'f')) {
+                             *             return false;
+                             *         }
+                             *     }
+                             */
                             providedChecks.put(pair[0], pair[1]);
                         }
                     }
