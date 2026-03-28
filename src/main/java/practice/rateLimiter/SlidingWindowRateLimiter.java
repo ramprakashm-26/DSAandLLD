@@ -3,12 +3,12 @@ package practice.rateLimiter;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class RateLimiter {
+public class SlidingWindowRateLimiter {
     private static final int PER_USER_LIMIT = 5;
     private static final int SLIDING_WINDOW_IN_SEC = 10;
     private final Map<String, Deque<Long>> bucket;
 
-    public RateLimiter() {
+    public SlidingWindowRateLimiter() {
         bucket = new ConcurrentHashMap<>();
     }
 
@@ -34,12 +34,13 @@ public class RateLimiter {
     }
 
     public static void main(String[] args) {
-        RateLimiter slidingWindowRateLimiter = new RateLimiter();
+        SlidingWindowRateLimiter slidingWindowRateLimiter = new SlidingWindowRateLimiter();
         slidingWindowRateLimiter.allowRequest(1, "A");
         slidingWindowRateLimiter.allowRequest(2, "A");
         slidingWindowRateLimiter.allowRequest(3, "A");
         slidingWindowRateLimiter.allowRequest(4, "A");
         slidingWindowRateLimiter.allowRequest(5, "A");
+        slidingWindowRateLimiter.allowRequest(10, "A");
         slidingWindowRateLimiter.allowRequest(11, "A");
     }
 }
