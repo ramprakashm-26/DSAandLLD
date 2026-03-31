@@ -40,6 +40,7 @@ public class LRUCache {
                 return -1;
             }
             Node current = map.get(key);
+            removeNode(current);
             moveAfterHead(current);
             return current.value;
         } finally {

@@ -6,7 +6,7 @@ class MedianFinder {
     private final PriorityQueue<Integer> lowerHeap;
     private final PriorityQueue<Integer> upperHeap;
     public MedianFinder() {
-        lowerHeap = new PriorityQueue<>((a, b) -> b - a);
+        lowerHeap = new PriorityQueue<>((a, b) -> Integer.compare(b, a));
         upperHeap = new PriorityQueue<>();
     }
 

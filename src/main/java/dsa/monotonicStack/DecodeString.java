@@ -1,4 +1,4 @@
-package hlag.problems;
+package dsa.monotonicStack;
 
 import java.util.Stack;
 

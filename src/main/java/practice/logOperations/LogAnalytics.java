@@ -20,9 +20,13 @@ public class LogAnalytics {
         }
         PriorityQueue<Map.Entry<String, Integer>> heap =
                 new PriorityQueue<>((a, b) -> {
-                    if (!a.getValue().equals(b.getValue())) {
-                        return a.getValue() - b.getValue(); // smaller count first
+                    int cmp = Integer.compare(a.getValue(), b.getValue());
+                    if (cmp == 0) {
+                        return cmp;
                     }
+//                    if (!a.getValue().equals(b.getValue())) {
+//                        return Integer.compare(a.getValue(), b.getValue()); // smaller count first
+//                    }
                     return b.getKey().compareTo(a.getKey()); // lexicographically larger first
                 });
 
